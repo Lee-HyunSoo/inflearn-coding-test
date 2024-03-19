@@ -5,7 +5,7 @@ import java.util.Arrays;
 import java.util.List;
 
 /**
- * CPU 스케줄링
+ * 가장 많이 사용 된 회의실
  */
 public class StructureQ6 {
 
