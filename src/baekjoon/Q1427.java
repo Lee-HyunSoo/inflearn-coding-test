@@ -10,8 +10,8 @@ public class Q1427 {
         int n = scan.nextInt();
         char[] num = String.valueOf(n).toCharArray();
         Arrays.sort(num);
-        String s = new StringBuilder(String.valueOf(num)).reverse().toString();
-        System.out.println(s);
+        String answer = new StringBuilder(String.valueOf(num)).reverse().toString();
+        System.out.println(answer);
 
 //        String num = String.valueOf(n);
 //        List<Integer> result = new ArrayList<>();
