@@ -2,6 +2,9 @@ package baekjoon;
 
 import java.util.*;
 
+/**
+ * 소트인사이드
+ */
 public class Q1427 {
 
     public static void main(String[] args) {

@@ -2,6 +2,9 @@ package baekjoon;
 
 import java.util.*;
 
+/**
+ * 연결 요소의 개수
+ */
 public class Q11724 {
 
     static int[][] graph;
