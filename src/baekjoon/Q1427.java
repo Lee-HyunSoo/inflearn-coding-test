@@ -14,7 +14,8 @@ public class Q1427 {
         for (char c : num.toCharArray()) {
             result.add(Character.getNumericValue(c));
         }
-        Collections.sort(result, Collections.reverseOrder());
+//        Collections.sort(result, Collections.reverseOrder());
+        Collections.sort(result, (a, b) -> b - a);
 
         for (int i : result) {
             System.out.print(i);
